@@ -1,0 +1,64 @@
+﻿body {
+    background-color: grey;
+    color: black;
+}
+
+.header {
+    font-size: 30px;
+    color: red;
+    text-align: center;
+    border: 1px solid black;
+    width: 100%;
+}
+
+.section {
+    height: 70%;
+    width: 70%;
+    float: right;
+    border: 1px solid black;
+    color: black;
+    background-color: whitesmoke;
+}
+
+.aside {
+    width: 25%;
+    height: auto;
+    float: left;
+    border: 1px solid black;
+}
+
+.nav {
+    border: 1px solid black;
+    width: auto;
+    text-align: center;
+    background-color: whitesmoke;
+    font-size: 20px;
+}
+
+.footer {
+    border: 1px solid black;
+    height: auto;
+    width: 100%;
+    border: 1px solid black;
+    text-align: center;
+    background-color: aquamarine;
+    color: black;
+    margin-top: 2%;
+    clear: both;
+}
+
+.nav a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: red;
+    cursor: pointer;
+}
+
+ul li {
+    display: inline;
+    padding: 20px;
+}

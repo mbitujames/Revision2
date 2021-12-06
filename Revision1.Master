@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Revision1.master.cs" Inherits="Revision2.Revision1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="Revision1.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="header">
+        <p>Master page</p>
+    </div>
+    <div class="nav">
+        <ul>
+        <li><a href="#"> Home</a></li>
+        <li><a href="#">Contact us</a></li>
+        <li><a href="#"> About us</a></li>
+        <li><a href="#" >Faqs</a></li>
+            </ul>
+    </div>
+    <div class="aside">
+        <p>#Sidebar</p>
+    </div>
+    <div class="section">
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    </div>
+    <div class="footer">
+        <p>&copy Alll Rights Reserved. 2021</p>
+    </div>
+</body>
+</html>
+
